@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bookmarks {
+  /* height: 100vh;
+  overflow: auto; */
+  padding-left: 10px;
+}
+
+.bookmarks::-webkit-scrollbar {
+  display: none;
+}
+
+.bookmark-container::-webkit-scrollbar {
+  display: none;
+}
+
+.heading1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+}
+
+.bookmark-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.removeButton {
+  height: 40px;
+}
+
+.paper {
+  width: 65%;
+  margin: auto;
+}
+/* 
+  .bookmarks {
+    width: 50%;
+  } */
+
+@media screen and (max-width: 1100px) {
+  .form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .paper {
+    width: 100%;
+  }
+}
